@@ -31,10 +31,10 @@ class Menu extends React.Component {
           <div key={meal.idMeal}>
             <h1 class="text-center">Meal of the Day</h1>
             <div class="row">
-              <div class="col-md-5">
+              <div class="col-md-5 col-sm-5 col-xs-12">
                 <img src={meal.strMealThumb} alt={meal.strMeal} />
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-sm-7 col-xs-12">
                 <h2>{meal.strMeal}</h2>
                 <h5 class="mt-2">Ingredients</h5>
                   <ul class="list-group">
@@ -102,7 +102,7 @@ class Menu extends React.Component {
               </div>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 col-sm-12">
                 <h2 class="mt-2">Preparation</h2>
                 <p class="lead">{meal.strInstructions}</p>
               </div>
