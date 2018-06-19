@@ -1,4 +1,4 @@
-# vue-weather
+# React Meals
 
 > A simple React application that fetches data from an API to display random meal ideas.
 
